@@ -1,17 +1,14 @@
-let radius = 10;
-const pi = 3.14;
+const title = "Best reads of 2019";
+const author = "Mario";
+const likes = 30;
 
-console.log(radius, pi);
-
-//let result = pi * radius ** 2;
-//console.log(result);
-
-let likes = 10;
-
-likes++;
-console.log(likes);
-
-console.log(5 / "hello");
-
-let result = "the blog has" + " " + likes + " " + "likes";
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
+
+//creating html templates
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${likes} likes </span>
+    `;
+console.log(html);
