@@ -1,24 +1,16 @@
-console.log(true, false);
+let age = 25;
 
-let email = "test@gmail.com";
-let names = ["mario", "luigi", "toad"];
+// loose comparison (different types can still be equal)
 
-//let result = email.includes("@");
-let result = names.includes("bowser");
+// console.log(age == 25);
+// console.log(age == "25");
+// console.log(age != 25);
+// console.log(age != "25");
 
-console.log(result);
+// strict comparison (different types cannot be equal)
+console.log(age === 25);
+console.log(age === "25");
+console.log(age !== 25);
+console.log(age !== "25");
 
-//comparison operators
-/*let age = 25;
-console.log(age == 25);
-console.log(age != 25);
-console.log(age < 20);
-*/
-
-let name = "shaun";
-console.log(name == "shaun");
-console.log(name == "Shaun");
-console.log(name > "crystal");
-console.log(name > "Shaun");
-
-//lower case are greater than upper case letter
+//use strict comparison because it results into more predictable results
