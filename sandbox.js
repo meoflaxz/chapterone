@@ -1,16 +1,12 @@
-let age = 25;
+//type conversion
 
-// loose comparison (different types can still be equal)
+let score = "100";
 
-// console.log(age == 25);
-// console.log(age == "25");
-// console.log(age != 25);
-// console.log(age != "25");
+score = Number(score);
+console.log(score + 1);
+console.log(typeof score);
 
-// strict comparison (different types cannot be equal)
-console.log(age === 25);
-console.log(age === "25");
-console.log(age !== 25);
-console.log(age !== "25");
-
-//use strict comparison because it results into more predictable results
+//let result = Number("hello");
+// let result = String(50);
+let result = Boolean(100);
+console.log(result, typeof result);
