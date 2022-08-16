@@ -1,7 +1,17 @@
-let email = "test@gmailt.com";
-let result = email.lastIndexOf("t");
+let radius = 10;
+const pi = 3.14;
 
-console.log(email.slice(2, 6));
-console.log(email.substr(2, 6));
+console.log(radius, pi);
 
-console.log(email.replace("m", "w"));
+//let result = pi * radius ** 2;
+//console.log(result);
+
+let likes = 10;
+
+likes++;
+console.log(likes);
+
+console.log(5 / "hello");
+
+let result = "the blog has" + " " + likes + " " + "likes";
+console.log(result);
